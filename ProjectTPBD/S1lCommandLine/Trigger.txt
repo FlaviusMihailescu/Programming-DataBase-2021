@@ -1,0 +1,11 @@
+CREATE SEQUENCE angajati_secventa1; //deduceri
+
+//deduceri trigger
+CREATE OR REPLACE TRIGGER trigger_nr_crt
+  BEFORE INSERT ON angajati
+  FOR EACH ROW
+BEGIN
+  SELECT angajati_secventa1.nextval
+  INTO :new.NR_CRT
+  FROM dual;
+END;

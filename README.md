@@ -1,20 +1,16 @@
-# Programming-DataBase-2021
+# Sql - .NET Employes Management Appication
 Project implementation: C# WinForms; Oracle SQL 11G; OleDbProvider; CrystalReports; etc...
 
-In acest proiect a fost implementata o aplicatie C# care prelucreaza o baza de date, 
-cu tabela aferenta angajatiilor dintr-o firma.
+In this project, a C# .NET application was implemented to process a database, with a table related to employees of a company.
 
-Aplicatia contine urmatoarele optiuni:
-*Introducere Angajati in baza de date
-*Afisarea angajatiilor din baza de date
-*Stergere Angajati in baza de date
-*Calcularea datelor necesare la angajare(Impozit, CAS, CASS, Salariu Brut, etc...)
-*Actualizarea datelor Angajatiilor
-*Modificarea Procentajelor pentru Impozit, CAS si/sau CASS
-*Afisare "Stat de plata"
-*Afisare "Fluturasi de salariu" pentru toti angajatii sau pentru un angajat cautat
+The application includes the following options:
 
-Aplicatia este una cat se poate de complexa, avand multiple constrangeri pentru 
-casutele de introducere a datelor, cum ar fi: in campurile de tip numeric nu pot fi introduse
-date eronate si multe altele. Daca esti curios de ele, 
-CONTACTEAZA-MA!
+Add Employees to the database
+Display employees from the database
+Delete Employees from the database
+Search for an employee by name
+Calculate necessary data for hiring (Tax, Social Security, Health Insurance, Gross Salary, etc.)
+Update employee data
+Modify the percentages for Tax, Social Security, and/or Health Insurance
+Display "Payslip"
+Display "Salary Slips" for all employees or for a specific searched employee
